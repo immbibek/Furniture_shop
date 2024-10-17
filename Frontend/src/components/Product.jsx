@@ -96,8 +96,9 @@ const Product = () => {
             <span>$40</span>
             
            </div>
+           <button className='add-btn'>Add to cart</button>
         </div>
-        <button className='add-btn'>Add to cart</button>
+        
         </div>
        <button className='btns'>Show More</button>
     </div>
