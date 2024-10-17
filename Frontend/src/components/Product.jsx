@@ -16,18 +16,23 @@ const Product = () => {
         </div>
         {/* card 1 */}
         <div className='product-cards'>
-            <div className='cards'>
+            <div className='card'>
+            <div>
            <img src={chair} alt="" />
+          
+           </div>
            <div className="details">
             <p className='main-title'>Liviosa</p>
+            
             <p className='desc'>Stylidh cafe chair</p>
             <span>$40</span>
             
            </div>
+           <button className='add-btn'>Add to cart</button>
            </div>
       
         
-          <div className='cards'> 
+          <div className='card'> 
            <img src={sofa1} alt="" />
            <div className="details">
             <p className='main-title'>Liviosa</p>
@@ -35,10 +40,11 @@ const Product = () => {
             <span>$40</span>
             
            </div>
+           <button className='add-btn'>Add to cart</button>
          </div>
         {/* card 2 */}
         
-          <div className='cards'>
+          <div className='card'>
            <img src={sofa2} alt="" />
            <div className="details">
             <p className='main-title'>Liviosa</p>
@@ -46,9 +52,10 @@ const Product = () => {
             <span>$40</span>
             
            </div>
+           <button className='add-btn'>Add to cart</button>
         </div>
         {/* card 3 */}
-        <div className='cards'>
+        <div className='card'>
            <img src={sofa3} alt="" />
            <div className="details">
             <p className='main-title'>Liviosa</p>
@@ -56,9 +63,10 @@ const Product = () => {
             <span>$40</span>
             
            </div>
+           <button className='add-btn'>Add to cart</button>
         </div>
         {/* card 4 */}
-        <div className='cards'>
+        <div className='card'>
            <img src={lamp} alt="" />
            <div className="details">
             <p className='main-title'>Liviosa</p>
@@ -66,9 +74,10 @@ const Product = () => {
             <span>$40</span>
             
            </div>
+           <button className='add-btn'>Add to cart</button>
         </div>
         {/* card 5 */}
-        <div className='cards'>
+        <div className='card'>
            <img src={sofa4} alt="" />
            <div className="details">
             <p className='main-title'>Liviosa</p>
@@ -76,9 +85,10 @@ const Product = () => {
             <span>$40</span>
             
            </div>
+           <button className='add-btn'>Add to cart</button>
         </div>
         {/* card 6 */}
-        <div className='cards'>
+        <div className='card'>
            <img src={table} alt="" />
            <div className="details">
             <p className='main-title'>Liviosa</p>
@@ -87,8 +97,9 @@ const Product = () => {
             
            </div>
         </div>
+        <button className='add-btn'>Add to cart</button>
         </div>
-      
+       <button className='btns'>Show More</button>
     </div>
   )
 }
