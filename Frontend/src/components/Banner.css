@@ -1,0 +1,69 @@
+
+.banner{
+    /* background-image: url("/image/back.png"); */
+    background: url("../assets/image/back.png");
+    height:716.83px;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.content-container{
+   /* display: flex;
+   flex-direction: column; */
+   
+    background: #FFF3E3;
+    z-index: 1;
+    width: 600px;
+    height: 400px;
+    margin-right: 30px;
+    padding: 26px;
+    border-radius: 5px;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 3px;
+}
+.title{
+    color: #333333;
+    font-weight: 600;
+
+}
+
+.content h2{
+    font-family: Poppins;
+    color: #B88E2F;
+    font-weight: 700;
+    font-size:42px ;
+    line-height: 50px;
+}
+.sub-title{
+    font-family: Poppins;
+   font-size: 10px;
+   font-weight: 500;
+   line-height: 24px;
+  text-align: left;
+
+}
+.btn{
+    width: 10rem;
+    padding: 15px;
+    border:none;
+    background: #B88E2F;
+    color:#fff;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+
+
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
