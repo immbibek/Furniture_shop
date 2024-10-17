@@ -1,0 +1,31 @@
+.product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px; 
+}
+.product-cards{
+    padding: 20px;
+    max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* background: #000; */
+
+  width: 1200px;
+  overflow-x: hidden;
+  
+}
+.cards img{
+  height: 290px;
+}
+
+.details{
+  background:#F4F5F7;
+  padding:12px;
+  display:flex;
+  flex-direction: column;
+  gap: 8px;
+}

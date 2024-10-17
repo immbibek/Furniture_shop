@@ -1,0 +1,43 @@
+.browse-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    /* justify-content: center; */
+}
+.top-box{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.top-box h1{
+   /* background: #000; */
+   max-width: 500px;
+   text-align: center;
+}
+.top-box p{
+    font-weight: 400;
+    font-size:1rem;
+    
+}
+
+
+.bottom-box{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 50px;
+    max-width: 1000px;
+}
+.bottom-box p{
+    /* background: #000; */
+    padding: 4px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.cards img{
+    height: 400px;
+    max-width: 500px;
+}
